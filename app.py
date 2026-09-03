@@ -114,4 +114,4 @@ if prompt := st.chat_input("Ask for recommendations (e.g., 'What dairy-free past
             st.markdown(response_text)
             st.session_state.messages.append({"role": "assistant", "content": response_text})
         except Exception as e:
-            st.error(f"Apologies, I ran into an error: {e}")
+            st.error(f"oops, I ran into an error: {e}")
