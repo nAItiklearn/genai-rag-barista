@@ -49,4 +49,4 @@ streamlit run app.py
 The app will start locally at http://localhost:8501.
 
 # Deployment
-This app is containerized and deployed to Google Cloud Run using Google Cloud Vertex AI for model hosting. Secrets and environment variables are managed directly in Cloud Run settings to keep credentials off public branches.
+This app is containerized and deployed to Google Cloud Run using Google Cloud Vertex AI for model hosting. Secrets and environment variables are managed directly in cloud Run settings to keep credentials off public branches.
